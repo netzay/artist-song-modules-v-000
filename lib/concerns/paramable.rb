@@ -1,5 +1,5 @@
 module Paramable
-  #attr_accessor :artist, :song 
+  attr_accessor :artist, :song 
   
   def to_param
     downcase.gsub(' ', '-')
